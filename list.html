@@ -1,0 +1,76 @@
+<!doctype>
+<html>
+	<head>
+
+		<style>
+			/* html5doctor.com Reset v1.6.1 - http://cssreset.com */
+			html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+
+			ul, li {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			#nav_top {
+				font-family: sans-serif;
+				z-index: 2;
+ 			}
+ 			
+			.nav_section {
+				float: left;
+				width: 128px;
+				padding: 1em 0;
+				border: 2px solid orange;
+				text-align: center;
+				margin: 0 .5em;
+			}
+			.nav_feature {
+				width: 80px;
+				margin: .125em auto;
+				display: none;
+				text-align: left;
+				padding: .125em 0;
+			}
+
+			.nav_section:hover .nav_feature {
+				display: inline-block;
+			}
+
+			#main_img {
+				clear: both;
+			}
+		</style>
+
+	</head>
+	<body>
+		<nav id="nav_top">
+			<ul class="nav_header">
+				<li class="nav_section">Main level
+					<ul>
+						<li class="nav_feature">Kitchen</li>
+						<li class="nav_feature">Laundry</li>
+						<li class="nav_feature">Dining Room</li>
+						<li class="nav_feature">Sunroom</li>
+						<li class="nav_feature">Den</li>
+						<li class="nav_feature">Foyer</li>
+					</ul>
+				</li>
+				<li class="nav_section">Upstairs
+					<ul>
+						<li class="nav_feature">Master Bedroom</li>
+						<li class="nav_feature">Master Bathroom</li>
+						<li class="nav_feature">Second Bedroom</li>
+						<li class="nav_feature">Third Bedroom</li>
+						<li class="nav_feature">Hall Bathroom</li>
+						<li class="nav_feature">Linen Closet</li>
+					</ul>
+				</li>
+			</ul>
+		</nav>
+		<section id="main_img">
+			<img class="img_600x400" src="planes.jpg">
+		</section>
+	</body>
+</html>
